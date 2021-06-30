@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class FirstController {
-	String n[]= {"James","Sharan","Hari","Srikanth"};
+	String n[]= {"James","Sharan","Hari","Srikanth","Karra"};
   @GetMapping("/greet")
   public String greet() {
 	  return "Hi!!! Spring boot is running, isn't it?";
